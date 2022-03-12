@@ -3,12 +3,11 @@
  *
  *
  *
- *
  */
 int main() {
     int intType;
     float floatType;
-    long long intType;
+    long longintType;
     char charType;
     long intType;
 
