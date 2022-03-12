@@ -8,8 +8,9 @@
 int main() {
     int intType;
     float floatType;
-    double doubleType;
+    long long intType;
     char charType;
+    long intType;
 
     // sizeof evaluates the size of a variable
     printf("Size of char: %zu bytes\n", sizeof(charType));
