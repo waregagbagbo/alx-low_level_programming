@@ -12,5 +12,4 @@ int _strlen(char *s){
     len = _strlen(str);
     printf("%d\n", len);
     return (0);
-
 }
