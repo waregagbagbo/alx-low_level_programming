@@ -1,13 +1,19 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _puts - print a given string to screen
  *
- * Return: Always 0.
+ * @str: passed pointer argument for string
+ * Return: void
  */
-int _strlen(char *str){
-  
-  str = 'My house of wax is very amazing to buy';
-  _puts(str);
-  return(0);
+void _puts(char *str)
+{
+	int len = 0;
+
+	while (*(str + len) != '\0')
+	{
+		_putchar(*(str + len));
+		len++;
+	}
+	_putchar('\n');
 }
